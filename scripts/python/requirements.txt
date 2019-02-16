@@ -1,0 +1,5 @@
+faker==1.0.2
+pandas==0.23.4
+pip==19.0.2
+pyodbc==4.0.25
+SQLAlchemy==1.2.18
