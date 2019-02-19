@@ -1,6 +1,8 @@
 from decouple import config
 from sqlalchemy import create_engine
-
+from unipath import Path
+BASE_DIR = Path(__file__).parent
+import os
 
 DB_USER = config('DB_USER')
 DB_PASSWORD = config('DB_PASSWORD')
